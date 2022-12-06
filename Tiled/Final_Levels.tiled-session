@@ -1,0 +1,44 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "CastleMap.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "CastleMap.tmx": {
+            "scale": 0.9389,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1059.2182341037383,
+                "y": 555.4372137607838
+            }
+        },
+        "Castle_Terrain.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Decorations Tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "/Users/caleblandis/Library/CloudStorage/OneDrive-IndianaUniversity/Game Graphics/Final/Tiled",
+    "last.imagePath": "/Users/caleblandis/Library/CloudStorage/OneDrive-IndianaUniversity/Game Graphics/Final/Asset Packs/Kings and Pigs/Sprites/14-TileSets",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "CastleMap.tmx",
+        "Castle_Terrain.tsx",
+        "Decorations Tileset.tsx"
+    ],
+    "project": "Final_Levels.tiled-project",
+    "recentFiles": [
+        "Decorations Tileset.tsx",
+        "Castle_Terrain.tsx",
+        "CastleMap.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

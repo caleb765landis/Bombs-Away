@@ -1,0 +1,22 @@
+[remap]
+
+importer="vnen.tiled_importer"
+type="PackedScene"
+path="res://.import/CastleMap.tmx-7f448e3c26fa64e4cce5ad7872fe05c1.scn"
+
+[deps]
+
+source_file="res://Tiled/CastleMap.tmx"
+dest_files=[ "res://.import/CastleMap.tmx-7f448e3c26fa64e4cce5ad7872fe05c1.scn" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+uv_clip=true
+image_flags=7
+collision_layer=1
+embed_internal_images=false
+save_tiled_properties=false
+add_background=true
+post_import_script=""
