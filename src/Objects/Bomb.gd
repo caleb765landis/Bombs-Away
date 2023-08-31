@@ -33,7 +33,10 @@ func explode(explode_who):
 	explosionAnimationStarted = true
 	
 	for p in in_area:
+		#print (p)
+		
 		if p.visible and p.get_name() == explode_who and p in in_area:
+			print(p)
 			p.health -= 10
 			
 			if explode_who == "Player":
@@ -54,10 +57,10 @@ func explosionDone():
 func _on_bomb_area_enter(body):
 	if not body in in_area:
 		in_area.append(body)
-	print("in area")
+		print("in area")
 
 func _on_bomb_area_exit(body):
-	if not body in in_area:
+	if body in in_area:
 		in_area.erase(body)
-	print("out area")
+		print("out area")
 	

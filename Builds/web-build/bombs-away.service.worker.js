@@ -3,7 +3,7 @@
 // that they need an Internet connection to run the project if desired.
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
-const CACHE_VERSION = "1670338126|18282701126";
+const CACHE_VERSION = "1670786410|1103303438";
 const CACHE_PREFIX = "Bombs Away!-sw-cache-";
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 const OFFLINE_URL = "bombs-away.offline.html";
