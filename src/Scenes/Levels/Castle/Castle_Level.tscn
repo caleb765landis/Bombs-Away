@@ -119,7 +119,7 @@ speed = Vector2( 400, 1200 )
 position = Vector2( 1, 0 )
 frames = SubResource( 1 )
 animation = "Bomber_Man_Idle"
-frame = 25
+frame = 24
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
@@ -140,7 +140,7 @@ speed = Vector2( 400, 1200 )
 position = Vector2( 1, 0 )
 frames = SubResource( 3 )
 animation = "Big_Guy_Idle"
-frame = 24
+frame = 35
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player2"]
