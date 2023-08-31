@@ -20,12 +20,13 @@ func calculate_velocity():
 	velocity += gravity * get_physics_process_delta_time()
 	
 func check_for_bomb():
-	if not bombSet and Input.is_action_just_pressed("bomb_p2"):
+	var bomb = get_node("../Bombs/Player2Bomb")
+	if not bombSet and Input.is_action_just_pressed("bomb_p2") and bomb.explosionAnimationStarted == false:
 		bombSet = true
 		
 		#var bomb = preload("res://src/Objects/bomb.tscn").instance()
 		#bomb.set_name("PlayerBomb") # Ensure unique name for the bomb
-		var bomb = get_node("../Bombs/Player2Bomb")
+		#var bomb = get_node("../Bombs/Player2Bomb")
 		bomb.show()
 		
 		var playerNode = get_node("../Player2")
@@ -39,7 +40,7 @@ func check_for_bomb():
 		bombSet = false
 		get_node("../ExplosionSound").play()
 		
-		var bomb = get_node("../Bombs/Player2Bomb")
+		#var bomb = get_node("../Bombs/Player2Bomb")
 		bomb.explode("Player")
 		
 func reset_state():

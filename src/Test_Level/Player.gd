@@ -6,6 +6,7 @@ export var gravity: = Vector2(0, 4000)
 export var speed: = Vector2(300, 1200)
 export var velocity = Vector2.ZERO
 
+
 # gameplay variables
 var bombSet = false
 var health = 100
@@ -44,12 +45,13 @@ func calculate_velocity():
 	velocity += gravity * get_physics_process_delta_time()
 	
 func check_for_bomb():
-	if not bombSet and Input.is_action_just_pressed("bomb"):
+	var bomb = get_node("../Bombs/PlayerBomb")
+	if not bombSet and Input.is_action_just_pressed("bomb") and bomb.explosionAnimationStarted == false:
 		bombSet = true
 		
 		#var bomb = preload("res://src/Objects/bomb.tscn").instance()
 		#bomb.set_name("PlayerBomb") # Ensure unique name for the bomb
-		var bomb = get_node("../Bombs/PlayerBomb")
+		#var bomb = get_node("../Bombs/PlayerBomb")
 		bomb.show()
 		
 		var playerNode = get_node("../Player")
@@ -63,7 +65,7 @@ func check_for_bomb():
 		bombSet = false
 		get_node("../ExplosionSound").play()
 		
-		var bomb = get_node("../Bombs/PlayerBomb")
+		#var bomb = get_node("../Bombs/PlayerBomb")
 		bomb.explode("Player2")
 		
 func check_win():
