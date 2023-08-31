@@ -24,3 +24,6 @@ Walk right -> “right arrow” key or right on left joystick
 Jump -> “up arrow” or “a” on xbox and “x” on playstation
 Set bomb -> “o” or “x” on xbox and “square” on playstation
 Detonate bomb -> “p” or “b” on xbox and “circle” on playstation
+
+## Credits
+All assets and animations were created by [Pixel Frog](https://pixelfrog-assets.itch.io/) on Itch.io.
